@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pillow = "*"
+numpy = "*"
+matplotlib = "*"
+tensorflow = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+prepare = "python prepare.py"
+train = "python train.py"
+work = "python work.py"
