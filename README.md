@@ -8,4 +8,4 @@ pipenv run train # 训练模型
 pipenv run work < test.jpg # 识别 test.jpg
 ```
 ## 文章链接
-[使用 TensorFlow 识别简单图像验证码](https://purocean.github.io/blog/blog/tensorflow-simple-captcha-recognition.html)
+[使用 TensorFlow 识别简单图像验证码](https://purocean.github.io/tensorflow-simple-captcha-recognition/)
